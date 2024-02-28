@@ -1,0 +1,19 @@
+package com.show.video.paypal.constant;
+
+/**
+ * @author Wangyizhou
+ * @Description
+ * @date 2023/12/13 18:28
+ */
+public interface PaypalEvent {
+
+    //CHECKOUT.ORDER.APPROVED
+    //PAYMENT.CAPTURE.COMPLETED
+    String PAYMENT_SALE_COMPLETED = "PAYMENT.SALE.COMPLETED";
+
+    String PAYMENT_CAPTURE_COMPLETED = "PAYMENT.CAPTURE.COMPLETED";
+
+    String CHECKOUT_ORDER_APPROVED = "CHECKOUT.ORDER.APPROVED";
+    String BILLING_SUBSCRIPTION_ACTIVATED = "BILLING.SUBSCRIPTION.ACTIVATED";
+    String OTHER = "PAYPAL_EVENT_OTHER";
+}
